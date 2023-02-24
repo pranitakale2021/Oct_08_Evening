@@ -9,8 +9,11 @@ public class InstragramForgotPassword3 {
 	@FindBy (xpath = "//a[text()='Forgot password?']")
 	private WebElement forgotPassword;
 	
-	@FindBy(xpath="//input[@class='_aaie _aaig _adrq _aaic _ag7n']")
-	private WebElement emailPhoneNo;
+	//@FindBy(xpath="//input[@class='_aaie _aaig _adrq _aaic _ag7n']")
+	//private WebElement emailPhoneNo;
+	
+	@FindBy(xpath="//input[@class='_aaie _aaig _adrq _aaic _ag7n']"1235)
+	private WebElement emailPhoneNonumber;
 	
 	@FindBy(xpath="//button[text()='Send login link']")
 	private WebElement sendLoginLink;
