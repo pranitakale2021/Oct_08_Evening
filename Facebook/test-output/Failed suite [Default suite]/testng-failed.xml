@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Default suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)(failed)">
+    <classes>
+      <class name="TestNG.Crossbrowser">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="InstragramSignUpPage"/>
+          <include name="InstragramSignUpPage2"/>
+          <include name="test"/>
+          <include name="launchBrowser"/>
+          <include name="afterMethod"/>
+          <include name="InstragramLoginPage"/>
+        </methods>
+      </class> <!-- TestNG.Crossbrowser -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->
